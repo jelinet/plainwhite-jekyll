@@ -102,8 +102,8 @@ main {
       font-weight: normal;
     }
     .tagline {
-      text-align: center;
-      font-size: 22px;
+      text-align: left;
+      font-size: 16px;
       margin-top: 0px;
       color: #aaa;
       white-space: pre-wrap;
@@ -111,6 +111,10 @@ main {
     }
     img {
       max-width: 150px;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
     }
     img.dark {
       display: none;
